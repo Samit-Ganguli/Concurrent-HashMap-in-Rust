@@ -1,0 +1,8 @@
+[package]
+name = "evmap"
+version = "4.0.0"
+
+[badges]
+travis-ci = { repository = "jonhoo/rust-evmap" }
+
+[dependencies]

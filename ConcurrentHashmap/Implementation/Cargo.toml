@@ -1,0 +1,13 @@
+[package]
+name = "ConcurrentHashmap"
+version = "0.1.0"
+
+[dependencies]
+evmap = { path = "../" }
+chashmap = "2.1.0"
+clap = "2.20.3"
+zipf = "0.2.0"
+rand = "0.3"
+
+[profile.release]
+debug = true
